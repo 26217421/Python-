@@ -19,3 +19,7 @@ print('{name} wrote {book}'.format(name='Swaroop', book='A Byte of Python'))
 print('a', end=' ')
 print('b', end=' ')
 print('c')
+'''
+Python 是强（Strongly）面向对象的，因为所有的一切都是对象， 包括数字、字符串与
+函数。
+'''
