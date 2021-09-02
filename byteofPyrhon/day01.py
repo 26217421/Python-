@@ -1,4 +1,4 @@
-#注释
+# 注释
 print('learning started')
 '''
 多行注释
@@ -23,3 +23,48 @@ print('c')
 Python 是强（Strongly）面向对象的，因为所有的一切都是对象， 包括数字、字符串与
 函数。
 '''
+
+length = 5
+breadth = 2
+area = length * breadth
+print('Area is', area)
+print('Perimeter is', 2 * (length + breadth))
+
+number = 23
+guess = int(input('Enter an integer : '))
+
+if guess == number:
+    print('Congratulations, you guessed it.')
+    print('(but you do not win any prizes!)')
+elif guess < number:
+    print('No, it is a little higher than that')
+else:
+    print('No, it is a little lower than that')
+print('Done')
+
+number = 23
+running = True
+while running:
+    guess = int(input('Enter an integer : '))
+    if guess == number:
+        print('Congratulations, you guessed it.')
+        running = False
+    elif guess < number:
+        print('No, it is a little higher than that.')
+    else:
+        print('No, it is a little lower than that.')
+else:
+    print('The while loop is over.')
+print('Done')
+
+for i in range(1, 5):
+    print(i)
+else:
+    print('The for loop is over')
+
+while True:
+    s = input('Enter something : ')
+    if s == 'quit':
+        break
+    print('Length of the string is', len(s))
+print('Done')
