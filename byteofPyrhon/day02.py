@@ -75,7 +75,7 @@ def total(a=5, *numbers, **phonebook):
         print('single_item', single_item)
     # 遍历字典中的所有项目
     for first_part, second_part in phonebook.items():
-        print(first_part,second_part)
+        print(first_part, second_part)
 
 
 print(total(10, 1, 2, 3, Jack=1123, John=2231, Inge=1560))
@@ -83,6 +83,7 @@ print(total(10, 1, 2, 3, Jack=1123, John=2231, Inge=1560))
 
 def maximum(x, y):
     '''print the doc
+
     the max number of the input two numbers '''
     if x > y:
         return x
