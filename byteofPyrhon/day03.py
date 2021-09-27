@@ -78,4 +78,4 @@ print('characters 2 to end is', name[2:])
 print('characters 1 to -1 is', name[1:-1])
 print('characters start to end is', name[:])
 
-print(shoplist[::3])
+print(shoplist[::-1])
